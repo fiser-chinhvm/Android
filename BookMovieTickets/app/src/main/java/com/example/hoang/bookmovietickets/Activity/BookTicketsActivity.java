@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.hoang.bookmovietickets.Helper.DBHelper;
 import com.example.hoang.bookmovietickets.Model.MovieModel;
@@ -80,6 +81,7 @@ public class BookTicketsActivity extends AppCompatActivity {
                 // do something here
                 model.setBooked(true);
                 dbHelper.updateMovie(model);
+                Toast.makeText(getApplicationContext(),"You've Booked" , Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(BookTicketsActivity.this, MyListTicketsActivity.class);
                 startActivity(intent);
             }

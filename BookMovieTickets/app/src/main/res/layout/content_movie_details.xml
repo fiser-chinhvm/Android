@@ -47,18 +47,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:weightSum="4"
+            android:layout_weight="1.2"
+            android:weightSum="5"
             android:orientation="horizontal">
             <Button
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
+                android:layout_weight="4"
                 android:background="@drawable/btn_background"
                 android:text="Book Tickets"
                 android:id="@+id/btnBookTicket"/>
             <ToggleButton
                 android:layout_width="0dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_height="match_parent"
                 android:padding="10dp"

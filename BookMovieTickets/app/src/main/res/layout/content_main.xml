@@ -7,7 +7,6 @@
     android:paddingTop="5dp"
     android:paddingBottom="5dp"
     android:orientation="vertical"
-    android:background="@drawable/hehe"
     android:weightSum="20"
     app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/app_bar_main"
     tools:context=".MainActivity">
@@ -16,9 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Phim Dang Chieu"
-        android:gravity="center"
-        android:textStyle="bold"
+        android:text="Now Playing >"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
         android:bufferType="spannable"
         android:textColor="#151414"/>
 
@@ -44,10 +44,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Phim Sap Chieu"
+        android:text="Coming Soon >"
         android:textColorHighlight="#1b1919"
-        android:gravity="center"
-        android:textStyle="bold"
+        android:textSize="20dp"
         android:background="@android:color/transparent"
         android:textColor="#151414"/>
 

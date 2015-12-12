@@ -228,18 +228,6 @@ public class MainActivity extends AppCompatActivity
             startActivity(intent);
         }
 
-        if(LoginForm.checkLgIn == true){
-            MenuItem quit = item;
-            quit.setVisible(false);
-            if (id == R.id.log_out){
-                Toast.makeText(getApplicationContext(),"You've Sign out",Toast.LENGTH_SHORT).show();
-                LoginForm.checkLgIn = false;
-                Intent intent = new Intent(MainActivity.this,LoginForm.class);
-                startActivity(intent);
-            }
-        }
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

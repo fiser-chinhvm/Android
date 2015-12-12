@@ -47,7 +47,7 @@ public class UserProfile extends AppCompatActivity {
                 MainActivity.Uprof.set(1, edtTelephone.getText().toString());
                 MainActivity.Uprof.set(2, edtCardNumber.getText().toString());
                 MainActivity.Uprof.set(3, edtEmail.getText().toString());
-                Toast.makeText(getApplicationContext(),"YOU SAVEEEEEEe",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"SAVED",Toast.LENGTH_SHORT).show();
             }
         });
 
