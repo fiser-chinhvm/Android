@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity
                 "@drawable/guardian", false );
         MovieModel model3 = new MovieModel("Spider Man 10", "This is a greate movie , You'll be regret so much if you don't see it",
                 "@drawable/spider", false );
-        MovieModel model4 = new MovieModel("Tom And Jerry The Movie", "This is a greate movie , You'll be regret so much if you don't see it",
+        MovieModel model4 = new MovieModel("Tom & Jerry The Movie", "This is a greate movie , You'll be regret so much if you don't see it",
                 "@drawable/tom_jerry", false );
         MovieModel model5 = new MovieModel("Ghost Rider", "This is a greate movie , You'll be regret so much if you don't see it",
                 "@drawable/ghost_rider", false );
